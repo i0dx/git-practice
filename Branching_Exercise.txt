@@ -1,0 +1,12 @@
+git branch [name] OR git checkout -b [name]
+
+Fast Forward merges are the easier of the two and occur when git can easily tell the commit history of the repository,
+Recursive merges are when things are a bit more complicated and changes have happened at various times and locations so a more complex algorithm is used.
+
+git checkout [name] is used to switch between the operational branch.
+
+git branch -d [name] is used to delete a branch 
+
+Merge conflicts arise when there is conflicting data in the same file between two different branches.
+These have to be resolved by a human user, as there is no way for git to know which is the 'right' option.
+
